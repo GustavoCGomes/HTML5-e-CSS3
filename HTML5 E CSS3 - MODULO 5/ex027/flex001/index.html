@@ -9,14 +9,14 @@
       background-color: lightsalmon;
 
       display: flex;
+      flex-direction: row;
     }
 
     div.item {
       background-color: lightblue;
       border: 1px solid black;
       text-align: center;
-
-      flex: auto;
+      padding: 10px;
     }
   </style>
 </head>
@@ -29,8 +29,22 @@
     <div class="item">E</div>
     <div class="item">F</div>
     <div class="item">G</div>
-    
-
   </div>
+
+  <!--
+  Direções da flex-box - 
+  flex-direction:
+  row; 
+  main-axis (da esquerda para a direita) cross-axis (de cima para baixo)
+
+  row-reverse;
+  main-axis (da direita para a esquerda) cross-axis (de cima para baixo)
+
+  column;
+  cross-axis (da esquerda para a direita) main-axis (de cima para baixo)
+
+  column reverse;
+  cross-axis (da direita para a esquerda) main-axis (de baixo para cima)
+  -->
 </body>
 </html>

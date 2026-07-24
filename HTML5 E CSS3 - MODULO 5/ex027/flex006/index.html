@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexible Box</title>
+  <style>
+    div.conteiner {
+      background-color: lightsalmon;
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-start;
+      height: 400px;
+    }
+
+    div.item {
+      background-color: lightblue;
+      border: 1px solid black;
+      text-align: center;
+      padding: 60px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="conteiner">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+
+  <!--
+  Direções da flex-box - 
+  flex-direction:
+  row; 
+  main-axis (da esquerda para a direita) cross-axis (de cima para baixo)
+
+  row-reverse;
+  main-axis (da direita para a esquerda) cross-axis (de cima para baixo)
+
+  column;
+  cross-axis (da esquerda para a direita) main-axis (de cima para baixo)
+
+  column reverse;
+  cross-axis (da direita para a esquerda) main-axis (de baixo para cima)
+  -->
+
+  <!--
+  flex-wrap: nowrap - na quebra
+  flex-wrap: wrap - segue o cross-axis
+  flex-wrap: wrap-reverse - segue a direção contraria do eixo transversal
+  -->
+</body>
+</html>
